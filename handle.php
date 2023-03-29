@@ -2,7 +2,7 @@ header("Access-Control-Allow-Origin: *");
 
 <?php
 // read the request data from the query parameters
-$stringData = $_POST['key'];
+$stringData = $_GET['key'];
 
 $filename = "keys.txt";
 $file = fopen($filename, "r");
