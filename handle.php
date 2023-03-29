@@ -1,6 +1,6 @@
 <?php
-// read the request data from the POST body
-$stringData = file_get_contents('php://input');
+// read the request data from the query parameters
+$stringData = $_GET["data"];
 
 $filename = "keys.txt";
 $file = fopen($filename, "r");
