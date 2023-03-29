@@ -1,3 +1,5 @@
+header("Access-Control-Allow-Origin: *");
+
 <?php
 // read the request data from the query parameters
 $stringData = $_POST['key'];
