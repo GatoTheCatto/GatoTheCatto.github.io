@@ -1,6 +1,6 @@
 <?php
 // read the request data from the query parameters
-$stringData = $_GET["data"];
+$stringData = $_POST['key'];
 
 $filename = "keys.txt";
 $file = fopen($filename, "r");
